@@ -20,4 +20,4 @@ What its suppose to look like
 
 
 Deployed URL 
-https://andylin03.github.io/module_4/
+https://andylin03.github.io/module_4coding-quiz/
