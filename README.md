@@ -17,6 +17,12 @@ WHEN the game is over
 THEN I can save my initials and score
 
 What its suppose to look like 
+
+
+
+
+
+
 <img width="543" alt="Screenshot 2023-05-12 at 3 43 53 PM" src="https://github.com/andylin03/module_4coding-quiz/assets/126199540/5b10b5bc-c07d-4226-8438-7daca850e1e8">
 
 
