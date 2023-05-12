@@ -1,0 +1,68 @@
+/* for all */
+* {
+    font-family: cursive;
+    background-color: lightpink;
+}
+/* container for front page */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* quiz text */
+.bodycontainer {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 24px;
+}
+/* view score button */
+#view-score {
+    font-size: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    border-color: aliceblue;
+}
+/* timer button */
+.time {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* start quiz button */
+#start {
+    width: 50%;
+    font-size: 40px;
+    margin-top: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    color: purple;
+    border-color: antiquewhite;
+}
+/* question display */
+#question {
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+/* got rid of formatting */
+.buttonclass {
+    list-style: none;
+}
+/* answer key */
+.Btn1 {
+    border-radius: 25px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+/* hide sections until they are shown via the click events */
+#questions,
+#final,
+#highscores,
+#yesno {
+    display: none;
+}
+
+
+

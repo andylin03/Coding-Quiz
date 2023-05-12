@@ -1,12 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Javascript Quiz</title>
 </head>
+
 <body>
-    
+    <header class="container">
+        <!-- to view score -->
+        <div class="scorecontainer">
+            <div class="score">
+                <button id="view-score" type="button">View High Score</button>
+            </div>
+            <div class="time-container">
+                <p class="time">Time: 75</p>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="bodycontainer">
+            <div id="bodytext">
+                <h1>Welcome to the Javascript Coding Quiz!</h1>
+                <p>Try and answer the following questions within the time limit! Good Luck!</p>
+                <button id="start" type="button">Start Quiz</button>
+            </div>
+        </div>
+    </section>
+    <!-- for question and answer -->
+    <section id="questions">
+        <div class="bodyquestion">
+            <h1 id="question">This is a question</h1>
+            <ul class="buttonclass">
+                <li><button id="answer1" value="0" type="button" class="Btn1">Answer1</button></li>
+                <li><button id="answer2" value="1" type="button" class="Btn1">Answer2</button></li>
+                <li><button id="answer3" value="2" type="button" class="Btn1">Answer3</button></li>
+                <li><button id="answer4" value="3" type="button" class="Btn1">Answer4</button></li>
+            </ul>
+        </div>
+        <div id="yesno">
+            <hr>
+        </div>
+    </section>
+
+    <!-- final score and name -->
+    <section id="final">
+        <div class="final">
+            <h1>All Done!</h1>
+            <p>Your final score is: <span id="score">0</span></p>
+            </p>
+            <p>Please enter your initials: <span><input placeholder="initials" id="initials" /></span>
+                <button id="submit-score">Submit</button>
+            </p>
+        </div>
+    </section>
+<!-- score list, go back, clearscore button for the end of the quiz -->
+    <section id="highscores">
+        <div class="highscore">
+            <h1>High Scores</h1>
+            <ol id="score-list"></ol>
+            <button id="goback">Go back</button>
+            <button id="clearscores">Clear scores</button>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
 </body>
+
 </html>
